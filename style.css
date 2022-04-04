@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+
+#stage {
+	position: relative;
+	margin-top: 5px;
+	width: 1400px;
+	height: 860px;
+	/* background-image: url(./pexels-tom-fisk-3448250.jpeg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+button {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	/* transform: translate(-100%); */
+}
+
+.ball {
+	/* background-image: url(./ball.png); */
+	width: 40px;
+	height: 40px;
+}
